@@ -10,17 +10,6 @@
   <name>Parent</name>
   <description>Just a pom that makes it easy to build both projects at the same time.</description>
 
-  <distributionManagement>
-    <repository>
-      <id>deployment</id>
-      <url>http://159.65.150.116:8081/repository/snaprel/</url>
-    </repository>
-    <snapshotRepository>
-      <id>deployment</id>
-      <url>http://159.65.150.116:8081/repository/snapdemo/</url>
-    </snapshotRepository>
-  </distributionManagement>
-
   <modules>
     <module>multi-module</module>
     <module>single-module</module>
@@ -29,5 +18,18 @@
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
+
+  <distributionManagement>
+    <repository>
+            <id>deployment</id>
+            <name>Snaprel</name>
+      <url>http://159.65.150.116:8081/repository/snaprel/</url>
+    </repository>
+    <snapshotRepository>
+            <id>deployment</id>
+            <name>Snapdemo</name>
+      <url>http://159.65.150.116:8081/repository/snapdemo/</url>
+    </snapshotRepository>
+  </distributionManagement>
 
 </project>
