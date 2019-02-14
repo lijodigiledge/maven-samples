@@ -21,13 +21,13 @@
   <distributionManagement>
     <repository>
 	    <id>deployment</id> 
-	    <name>Snaprel</name>
-      <url>http://159.65.150.116:8081/repository/snaprel/</url>
+	    <name>maven-releases</name>
+      <url>http://159.65.150.116:8081/repository/maven-releases/</url>
     </repository>
     <snapshotRepository>
 	    <id>deployment</id> 
-            <name>Snapdemo</name>
-      <url>http://159.65.150.116:8081/repository/snapdemo/</url>
+            <name>maven-snapshots</name>
+      <url>http://159.65.150.116:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 
