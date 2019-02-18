@@ -23,9 +23,9 @@
       <url>http://159.65.150.116:8081/repository/maven-releases/</url>
     </repository>
     <snapshotRepository>
-      <id>maven-snapshots</id>
-      <name>maven-snapshots</name>
-      <url>http://159.65.150.116:8081/repository/maven-snapshots/</url>
+      <id>snapshotone</id>
+      <name>snapshotone</name>
+      <url>http://159.65.150.116:8081/repository/snapshotone/</url>
     </snapshotRepository>
   </distributionManagement>
 
